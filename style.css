@@ -10,41 +10,39 @@ body {
 }
 
 .container {
-    padding: 20px;
-    height: 350px;
-    justify-items: center;
-    background-color: antiquewhite;
-    margin: 200px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
 }
+
+.app {
+    width: 425px;
+    background-color: antiquewhite;
+    padding: 25px;
+    border-radius: 10px;
+}
+
 
 .head {
     font-size: 26px;
     background-color: aqua;
-    width: 250px;
+    text-align: center;
     padding: 15px;
 }
 
+.section {
+    background-color: aquamarine;
+    border-radius: 12px;
+}
 
 .section-top {
     font-size: 18px;
-    height: 100px;
-    width: 250px;
-    justify-items: center;
     padding: 10px;
-    flex-direction: column;
-    background-color: aquamarine;
-    border-radius: 12px;
-   
+
 }
 
 .section-bottom {
     font-size: 18;
-    height: 100px;
-    width: 250px;
-    justify-items: center;
     padding: 10px;
-    flex-direction: column;
-    background-color: aquamarine;
-    border-radius: 12px;
 }
